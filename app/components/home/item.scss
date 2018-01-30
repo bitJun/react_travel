@@ -1,0 +1,101 @@
+.item {
+  padding: 0rem 0.625rem;
+  padding-top: 0.625rem;
+  background: #ffffff;
+  margin-bottom: 0.625rem;
+  a {
+    display: block;
+  }
+  .user .user_logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100px; 
+  }
+  .user .user_info {
+    padding-left: 4.5rem;
+  }
+  .user .user_info p {
+    margin-bottom: 0.625rem;
+    font-size: 1.125rem;
+    color: #333333;
+  }
+  .user .user_info p span {
+    color: #999999;
+    font-size: 0.75rem;
+  }
+  .user .user_info .age {
+    padding: 0.25rem 0.5rem;
+    color: #ffffff;
+    font-size: 0.75rem;
+    border-radius: 5px;
+  }
+  .user .user_info .age img {
+    width: 0.75rem;
+  }
+  .user .user_info .woman {
+    background: #f75252;
+  }
+  .user .user_info .men {
+    background: #3faef4;
+  }
+  .Route {
+    height: 1.75rem;
+    line-height: 1.75rem;
+    color: #ff9000;
+  }
+  .Route span {
+    border:1px solid #ff9000;
+    border-radius:6px;
+    padding: 0rem 0.625rem;
+  }
+  .start_day {
+    font-size:1rem;
+    color:#000000;
+    letter-spacing:-0.38px;
+    margin: 0.625rem 0rem;
+  }
+  .discribe {
+    font-size:1rem;
+    color:#666666;
+    letter-spacing:-0.38px;
+    text-align:left;
+    padding-bottom: 0.625rem;
+    border-bottom: 1px solid #dddddd;
+  }
+  .discribe .imgs {
+    margin-top: 0.625rem; 
+  }
+  .discribe .imgs li {
+    padding: 0rem;
+    width: 32%;
+    float: left;
+    margin-bottom: 0.625rem;
+  }
+  .discribe .imgs li:nth-child(3n-1) {
+    margin: 0px 2%;
+  }
+  .discribe .imgs li img {
+    width: 100%;
+  }
+  .operate {
+    padding: 0.625rem 0rem;
+  }
+  .leave_message {
+    width: 1.5rem;
+  }
+  .msg_num{
+    width: 2rem;
+    height: 1rem;
+      background-size: cover;
+      text-align: center;
+      margin-top: 0.25rem;
+      font-size: 0.75rem;
+      color: #999999;
+  }
+  .visit_num {
+    margin-top: 0.25rem;
+    font-size:0.75rem;
+    color:#777777;
+    letter-spacing:-0.33px;
+  }
+}

@@ -1,0 +1,163 @@
+.accountoverview {
+  width: 1200px;
+  margin: 0px auto;
+  margin-top: 65px;
+  section:first-child {
+    padding-top: 5px;
+  }
+  section:last-child {
+    padding-bottom: 75px;
+  }
+  .tli {
+    padding-top: 30px;
+    margin-bottom: 10px;
+    color: #999999;
+    font-size: 14px;
+  }
+  .tli span {
+    color: #b9b9b9;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .realaccount {
+    background: #ffffff;
+    height: 200px;
+    padding: 0px 50px;
+  }
+  .tipbar {
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    background: #5fb897;
+    color: #fffefe;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 27px;
+  }
+  .title {
+    font-size: 14px;
+    color: #999999;
+  }
+  .balance {
+    height: 95px;
+    border-right: 1px solid #eeeeee;
+    width: 200px;
+    padding-right: 20px;
+  }
+  .balance_num {
+    font-size: 30px;
+    color: #5fb897;
+    margin-top: 10px;
+  }
+  .infomation {
+    width: 660px;
+    margin: 0px 59px;
+  }
+  .infomation li {
+    float: left;
+    width: 25%;
+  }
+  .info_detail {
+    font-size: 22px;
+    color: #666666;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .btns {
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+  }
+  .Login {
+    background: #5fb897;
+    color: #ffffff;
+  }
+  .Logined {
+    color: #999999;
+    background: #e8e8e8;
+  }
+  .list {
+    background: #ffffff;
+    padding: 25px 0px 20px 0px; 
+  }
+  .list td:first-child {
+    text-indent: 50px;
+  }
+  .list td:last-child p {
+    padding-right: 53px;
+    text-align: right;
+  }
+  .list thead td {
+    font-size: 14px;
+    color: #999999;
+    height: 45px;
+    line-height: 45px;
+  }
+  .list tbody td {
+    font-size: 14px;
+    color: #333333;
+    height: 55px;
+    line-height: 55px;
+  }
+  .list tbody td label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+  }
+  .imitate .list tbody td label {
+    background: #f7bb5d;
+  }
+  .true .list tbody td label {
+    background: #5fb897;
+  }
+  .list tbody td a {
+    display: block;
+    width: 68px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #5fb897;
+    color: #5fb897;
+    font-size: 14px;
+    float: right;
+    margin-right: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+  }
+  .list tbody td a:hover {
+    background: #5fb897;
+    color: #ffffff;
+  }
+  .no_result {
+    height: 200px;
+    background: #ffffff;
+    text-align: center;
+    img {
+      width: 116px;
+      height: 84px;
+      margin-top: 50px;
+    }
+    p {
+      color: #adc3e8;
+      margin-top: 16px;
+      font-size: 14px;
+      text-indent: 15px;
+    }
+  }
+}

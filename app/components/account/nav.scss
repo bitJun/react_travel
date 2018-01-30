@@ -1,0 +1,34 @@
+.filiter_view {
+  height: 55px;
+  background: #fafafa;
+  margin-bottom: 20px;
+  .menu {
+    width: 900px;
+    height: 55px;
+    margin: 0px auto;
+  }
+  .menu li {
+    width: 60px;
+    float: left;
+    margin-right: 80px;
+  }
+  .menu li:last-child {
+    margin-right: 0px;
+  }
+  .menu li a {
+    display: block;
+    width: 60px;
+    line-height: 55px;
+    text-align: center;
+    color: #9baebd;
+    font-size: 14px;
+  }
+  .menu li a:hover {
+    color: #3e445b;
+    border-bottom: 3px solid #5fb897;
+  }
+  .router-link-active {
+    color: #3e445b !important;
+    border-bottom: 3px solid #5fb897;
+  }
+}
