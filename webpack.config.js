@@ -24,6 +24,7 @@ module.exports = {
     inline: true,
     progress: true,
     port: 8080,
+    open: true,
     publicPath: '/',
     contentBase: path.resolve(__dirname, 'dist'),
   },
